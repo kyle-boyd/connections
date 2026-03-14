@@ -1,0 +1,1735 @@
+{
+  "proficiency_levels": {
+    "1": "AI-Curious",
+    "2": "AI-Adopter",
+    "3": "AI-Integrated",
+    "4": "AI-Native"
+  },
+  "industries": [
+    {
+      "industry": "AEC + Real Estate",
+      "roles": [
+        {
+          "role": "Architect",
+          "questions": [
+            {
+              "id": 1,
+              "question": "When you receive a new project brief, how does AI fit into your early site and program analysis?",
+              "answers": [
+                { "text": "I review the brief manually, pull references, and start sketching on my own.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I might use AI to summarize zoning codes or pull comparable precedents.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI is part of my early workflow — generating program options, analyzing site constraints, summarizing regulatory docs.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I've set up automated workflows that pull zoning, site data, and precedent analysis before I even open a file.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 2,
+              "question": "How do you approach schematic design and massing exploration?",
+              "answers": [
+                { "text": "I sketch and model manually in Rhino or Revit from the start.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI image tools occasionally to get visual inspiration or mood references.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I use AI generative tools to rapidly explore massing options and iterate on form before committing to a direction.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "AI generates multiple schematic options with performance data attached — I'm selecting and refining rather than originating.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 3,
+              "question": "When preparing client presentations, how does AI show up in your process?",
+              "answers": [
+                { "text": "I build decks manually — layouts, narratives, and imagery done by hand.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help write narrative text or clean up presentation copy.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me generate renders, draft narratives, and structure the presentation flow quickly.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I have a repeatable workflow that takes design files and outputs client-ready presentation materials with minimal manual effort.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 4,
+              "question": "How do you handle building code research and compliance documentation?",
+              "answers": [
+                { "text": "I look up codes manually, bookmark relevant sections, and document by hand.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to search and summarize specific code sections when I need a quick answer.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I regularly prompt AI with project specifics to cross-reference code requirements and flag potential issues.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I've built or use tools that automatically check designs against applicable codes and generate compliance summaries.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 5,
+              "question": "How do you manage coordination with structural, MEP, and other consultants?",
+              "answers": [
+                { "text": "Email chains, meeting notes, and manual markup of drawings.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft coordination letters or summarize meeting notes.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me identify conflicts in models, track open items, and keep coordination documentation current.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Clash detection, issue tracking, and coordination logs are largely automated in my workflow.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 6,
+              "question": "When producing construction documents and specifications, how does AI factor in?",
+              "answers": [
+                { "text": "I write specs and annotate drawings manually.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft or edit specification sections.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me generate spec sections, check for consistency across documents, and flag missing information.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Much of my documentation is generated from model data and AI — I'm reviewing and approving rather than writing from scratch.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 7,
+              "question": "How do you approach sustainability analysis and performance simulation?",
+              "answers": [
+                { "text": "I rely on consultants or run basic manual checks.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI tools to get rough energy estimates or daylight analysis without deep configuration.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "Performance analysis is part of my early design process — AI tools help me test options quickly before finalizing.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I run parametric performance optimization — designs are iterated against energy, daylight, and structural targets automatically.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 8,
+              "question": "How do you stay current with AI tools relevant to architecture?",
+              "answers": [
+                { "text": "I hear about things when they come up but don't actively seek them out.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I follow the space and try things when something looks promising.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I experiment regularly and have a working set of tools that have genuinely changed my process.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I'm testing tools early, sharing findings with my firm or community, and influencing how others adopt them.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            }
+          ]
+        },
+        {
+          "role": "Civil / Structural Engineer",
+          "questions": [
+            {
+              "id": 1,
+              "question": "When starting a new structural or civil project, how does AI fit into your initial analysis?",
+              "answers": [
+                { "text": "I work through site data and load calculations manually using established methods.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help summarize geotechnical reports or look up reference standards.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me process site data, generate preliminary load estimates, and flag potential constraints early.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I've automated early-stage analysis — site data flows into AI tools that generate preliminary structural options with performance comparisons.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 2,
+              "question": "How do you handle structural calculations and code compliance checks?",
+              "answers": [
+                { "text": "I run calculations manually or in spreadsheets, checking codes by hand.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to look up specific code clauses or sanity-check my approach.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I use AI tools to accelerate calculation workflows and cross-reference applicable codes automatically.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Calculations and code checks are largely automated — I'm reviewing outputs and making engineering judgments rather than running numbers.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 3,
+              "question": "When producing engineering drawings and documentation, how does AI show up?",
+              "answers": [
+                { "text": "I produce drawings and notes manually in CAD or similar tools.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft technical notes or specification language.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me generate drawing annotations, check document consistency, and speed up report writing.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Drawing production and documentation are substantially automated — model data drives output with minimal manual drafting.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 4,
+              "question": "How do you approach design optimization — finding the most efficient structural or civil solution?",
+              "answers": [
+                { "text": "I rely on experience and established rules of thumb to make decisions.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I occasionally use software tools to test a couple of alternatives.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I use AI-assisted parametric tools to explore multiple structural configurations quickly.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I run generative optimization — AI explores thousands of configurations against cost, performance, and material constraints and surfaces the best options.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 5,
+              "question": "How do you handle project reporting and client communication?",
+              "answers": [
+                { "text": "I write reports and memos from scratch each time.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help clean up writing or summarize technical content for non-technical audiences.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me draft reports, pull key data points, and structure client communications efficiently.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Reports and client updates are generated from project data with AI — I review and approve rather than write.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 6,
+              "question": "How do you manage coordination with architects and other engineering disciplines?",
+              "answers": [
+                { "text": "Email, meetings, and manual markup of shared drawings.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft coordination notes or summarize meeting action items.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I use AI to flag model conflicts, track open issues, and keep coordination documentation up to date.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Coordination workflows are automated — conflict detection, issue logging, and status reporting happen without manual intervention.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 7,
+              "question": "How does AI factor into your approach to risk identification and project problem-solving?",
+              "answers": [
+                { "text": "I rely on experience and peer review to catch risks.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I'll ask AI to help think through a problem when I'm stuck.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me systematically identify risks, run through failure scenarios, and stress-test assumptions early.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Risk analysis is embedded in my workflow — AI monitors project data and surfaces issues before they become problems.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 8,
+              "question": "How do you stay current with AI tools relevant to structural or civil engineering?",
+              "answers": [
+                { "text": "I hear about things occasionally but don't actively track them.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I follow the space and try new tools when they seem relevant.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I experiment regularly and have changed my workflow based on what I've learned.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I'm an early adopter who shares findings and shapes how my firm or peers approach AI in engineering.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            }
+          ]
+        },
+        {
+          "role": "Construction Project Manager",
+          "questions": [
+            {
+              "id": 1,
+              "question": "When a new project starts, how does AI factor into your planning and scheduling?",
+              "answers": [
+                { "text": "I build schedules manually in MS Project or similar, based on experience.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft project plans or summarize scope documents.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me generate initial schedules, identify sequencing risks, and benchmark against similar past projects.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Scheduling and resource planning are AI-driven — I'm reviewing and adjusting rather than building from scratch.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 2,
+              "question": "How do you manage RFIs, submittals, and field documentation?",
+              "answers": [
+                { "text": "Manual logging, email tracking, and spreadsheets.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft RFI responses or summarize submittal packages.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me track open items, flag overdue submittals, and draft routine correspondence automatically.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "RFI and submittal workflows are largely automated — AI drafts, routes, and logs items with minimal manual input.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 3,
+              "question": "How do you approach cost estimation and budget tracking?",
+              "answers": [
+                { "text": "I build estimates manually using historical data and vendor quotes.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help benchmark costs or summarize change order impacts.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me build and update cost models, flag budget variances, and model change order scenarios.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Cost tracking is automated — AI monitors actuals vs. budget in real time and surfaces risks before they escalate.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 4,
+              "question": "How do you handle subcontractor coordination and communication?",
+              "answers": [
+                { "text": "Phone calls, emails, and site meetings — mostly manual.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft subcontractor communications or meeting agendas.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me track commitments, flag delays, and maintain a clear record of subcontractor obligations.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Subcontractor coordination is supported by automated workflows — status updates, issue flags, and follow-ups happen systematically.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 5,
+              "question": "How does AI show up in your safety management and incident reporting?",
+              "answers": [
+                { "text": "Safety walks, manual checklists, and paper or spreadsheet-based reporting.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help write safety plans or format incident reports.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me analyze near-miss data, generate safety briefings, and flag risk patterns across the project.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Safety monitoring is AI-assisted — computer vision or automated reporting tools flag hazards and generate reports with minimal manual input.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 6,
+              "question": "How do you prepare progress reports and owner updates?",
+              "answers": [
+                { "text": "I write reports manually, pulling data from multiple sources each time.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft narrative sections or format status updates.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI aggregates project data and helps me produce reports quickly with consistent structure.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Progress reports are largely auto-generated from live project data — I review and send rather than write.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 7,
+              "question": "How do you approach risk management and change order analysis?",
+              "answers": [
+                { "text": "Experience-based — I know what to watch for and manage issues as they arise.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help think through scenarios or draft change order justifications.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me model risk scenarios, assess change order impacts, and keep a live risk register.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Risk tracking and change analysis are automated — AI monitors project variables and surfaces emerging risks proactively.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 8,
+              "question": "How do you stay current with AI tools relevant to construction management?",
+              "answers": [
+                { "text": "I hear about things through colleagues or conferences occasionally.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I follow the space and test tools when they seem relevant to my work.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I actively experiment and have tools embedded in my regular workflow.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I'm an early adopter who advocates for AI adoption at the firm level and helps others get started.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            }
+          ]
+        },
+        {
+          "role": "Real Estate Developer / Analyst",
+          "questions": [
+            {
+              "id": 1,
+              "question": "When evaluating a new market or site opportunity, how does AI fit into your research process?",
+              "answers": [
+                { "text": "I pull data manually from CoStar, local reports, and broker conversations.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to summarize market reports or help write up an initial site memo.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me aggregate and synthesize market data, zoning information, and comparable transactions quickly.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I've built or use automated pipelines that pull and score opportunities before I conduct a manual review.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 2,
+              "question": "How do you build and manage financial models for development projects?",
+              "answers": [
+                { "text": "I build models from scratch in Excel, updating manually as assumptions change.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help check formulas, draft assumptions narratives, or summarize model outputs.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me scenario-test models quickly, flag sensitivity issues, and generate narrative summaries of financial outputs.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Financial modeling is largely automated — I'm inputting key assumptions and AI generates scenario analyses, sensitivity tables, and investor summaries.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 3,
+              "question": "How does AI factor into your due diligence process?",
+              "answers": [
+                { "text": "I review documents manually — leases, title, environmental, entitlement history.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help summarize long documents or flag key terms in contracts.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me systematically review due diligence materials, extract key data points, and surface red flags.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Due diligence review is AI-driven — documents are ingested, analyzed, and summarized automatically with issues flagged for my review.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 4,
+              "question": "How do you handle zoning analysis and entitlement research?",
+              "answers": [
+                { "text": "I read zoning codes and planning documents manually or rely on consultants.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to summarize zoning documents or look up specific regulations.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me interpret zoning codes, identify entitlement pathways, and flag constraints for a given site quickly.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Zoning and entitlement research is automated — AI ingests local codes and surfaces development potential before I engage consultants.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 5,
+              "question": "How do you prepare investor materials and equity pitches?",
+              "answers": [
+                { "text": "I build decks and memos manually, from blank templates.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft narrative sections or refine the pitch language.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me structure materials, generate market narratives, and tailor messaging to specific investor profiles.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Investor materials are largely generated from project data — AI produces first drafts of decks and memos that I refine and approve.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 6,
+              "question": "How do you manage ongoing asset performance tracking and reporting?",
+              "answers": [
+                { "text": "Manual spreadsheet updates and periodic reporting from property managers.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help interpret reports or draft asset management updates.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me track KPIs, flag underperformance, and generate portfolio-level summaries automatically.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Asset performance is monitored in real time by AI — I'm alerted to issues and given recommendations rather than manually reviewing data.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 7,
+              "question": "How does AI factor into deal sourcing and pipeline management?",
+              "answers": [
+                { "text": "I rely on broker relationships, cold outreach, and manual tracking.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft outreach messages or summarize broker packages.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me score inbound deals, maintain pipeline notes, and flag opportunities matching my acquisition criteria.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Deal sourcing is AI-assisted — automated tools surface and pre-screen opportunities based on my criteria before I get involved.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 8,
+              "question": "How do you stay current with AI tools relevant to real estate development and analysis?",
+              "answers": [
+                { "text": "I hear about things through the industry occasionally.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I follow the space and try things when they seem applicable to deals I'm working on.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I actively test tools and have changed how I run analysis and due diligence as a result.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I'm ahead of most peers — I share what works and advise others on how to integrate AI into real estate workflows.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "industry": "Legal",
+      "roles": [
+        {
+          "role": "Associate / Attorney",
+          "questions": [
+            {
+              "id": 1,
+              "question": "When starting a new matter, how does AI factor into your initial legal research?",
+              "answers": [
+                { "text": "I use Westlaw or Lexis manually, reading cases and synthesizing findings myself.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI tools like Westlaw AI or Casetext to speed up initial case searches.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI is central to my research workflow — I use it to identify relevant precedents, synthesize case law, and surface arguments quickly.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I've built research workflows where AI ingests matter facts and returns a structured legal landscape before I do any manual review.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 2,
+              "question": "How do you approach contract drafting and review?",
+              "answers": [
+                { "text": "I draft from precedent templates and review manually.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to check for missing clauses or help draft routine sections.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI is part of my drafting workflow — generating first drafts, flagging non-standard terms, and redlining against my firm's playbook.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Contract review and drafting are largely AI-driven — I'm making judgment calls on flagged issues rather than doing line-by-line review.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 3,
+              "question": "How do you handle discovery and document review?",
+              "answers": [
+                { "text": "Manual review with keyword searches and linear document batches.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use TAR or basic AI review platforms to prioritize documents.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI-assisted review is standard — I use predictive coding, issue tagging, and privilege screening tools as a core part of my process.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Discovery workflows are AI-native — documents are classified, issues flagged, and privilege logs drafted automatically with human review focused on edge cases.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 4,
+              "question": "How do you write briefs and legal memoranda?",
+              "answers": [
+                { "text": "I write from scratch using my research notes and prior work product.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help structure arguments or clean up language in drafts.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me generate initial argument frameworks, draft sections, and check citations — I revise and refine.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "My brief-writing process is AI-augmented from research to draft — I'm editing and adding judgment rather than writing from a blank page.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 5,
+              "question": "How does AI factor into client communication and matter management?",
+              "answers": [
+                { "text": "I write client emails and status updates manually.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft client updates or summarize matter status.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me maintain matter summaries, draft routine client communications, and keep action item lists current.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Matter management is AI-assisted — status updates, task tracking, and client-facing summaries are generated automatically from matter data.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 6,
+              "question": "How do you approach due diligence in transactional work?",
+              "answers": [
+                { "text": "Manual document review using checklists and shared drives.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to summarize key documents or flag unusual terms.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI systematically reviews due diligence documents, extracts key terms, and generates summary reports for my review.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Due diligence is AI-driven — documents are ingested and analyzed at scale, with issues surfaced for attorney review only.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 7,
+              "question": "How do you think about AI reliability and risk in your legal work?",
+              "answers": [
+                { "text": "I'm cautious — I don't trust AI outputs enough to use them without significant manual verification.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI for lower-stakes tasks and always verify outputs before relying on them.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I have a clear sense of where AI is reliable in my work and where it needs heavy oversight — I've calibrated my use accordingly.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I've developed protocols for AI use in legal work that manage risk systematically — and I help others understand where the lines are.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 8,
+              "question": "How do you stay current with AI tools and developments relevant to legal practice?",
+              "answers": [
+                { "text": "I hear about things through bar updates or colleagues occasionally.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I follow legal tech news and try tools that seem applicable to my practice area.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I actively experiment and have meaningfully changed how I practice based on what I've learned.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I'm a resource for my firm on AI in legal practice — I advise on adoption, risk, and best practices.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            }
+          ]
+        },
+        {
+          "role": "Paralegal",
+          "questions": [
+            {
+              "id": 1,
+              "question": "How does AI factor into your document organization and case file management?",
+              "answers": [
+                { "text": "I organize files manually using folder structures and naming conventions.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help label or summarize documents in a case file.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me categorize, tag, and surface relevant documents quickly across large case files.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Document management is largely automated — AI ingests, classifies, and organizes files and flags items needing attorney attention.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 2,
+              "question": "How do you handle legal research support tasks?",
+              "answers": [
+                { "text": "I pull cases and statutes manually using Westlaw or Lexis as directed.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI research tools to speed up initial searches and summarize results for attorneys.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I use AI to conduct preliminary research, identify key cases, and prepare structured summaries that attorneys can act on directly.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I run AI-powered research workflows that deliver attorney-ready research packages with minimal manual effort.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 3,
+              "question": "How do you approach drafting correspondence and routine legal documents?",
+              "answers": [
+                { "text": "I draft from templates and prior work product manually.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help generate first drafts of letters or routine forms.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI drafts routine documents and correspondence — I review, customize, and finalize.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Most routine drafting is AI-generated — I'm focused on review, quality control, and handling exceptions.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 4,
+              "question": "How do you support deposition and trial preparation?",
+              "answers": [
+                { "text": "I organize exhibits, prepare binders, and summarize transcripts manually.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help summarize transcripts or flag key testimony.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me analyze transcripts, identify inconsistencies, and build organized prep materials efficiently.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Deposition prep materials and transcript analysis are AI-generated — I focus on strategy support rather than document assembly.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 5,
+              "question": "How do you manage deadlines, court filings, and docketing?",
+              "answers": [
+                { "text": "Manual calendar management and checklist-based deadline tracking.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft filing checklists or summarize procedural requirements.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me track deadlines, generate filing checklists, and alert the team to upcoming obligations.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Deadline management is automated — AI monitors dockets, calculates deadlines, and generates task lists without manual input.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 6,
+              "question": "How does AI factor into your communication with clients and third parties?",
+              "answers": [
+                { "text": "I write all correspondence manually.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft routine client or third-party communications.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI drafts most of my routine correspondence — I review, personalize, and send.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Routine communications are AI-generated and personalized automatically — I handle complex or sensitive matters directly.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 7,
+              "question": "How do you stay on top of procedural rules and jurisdiction-specific requirements?",
+              "answers": [
+                { "text": "I maintain reference binders and check rules manually when needed.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to look up specific rules or verify procedural requirements quickly.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me check procedural requirements systematically and flags jurisdiction-specific issues before filing.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Procedural compliance checks are automated — AI cross-references filing requirements and surfaces issues without manual lookup.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 8,
+              "question": "How do you stay current with AI tools relevant to paralegal work?",
+              "answers": [
+                { "text": "I hear about tools through colleagues or firm updates occasionally.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I follow legal tech news and try tools that apply to my day-to-day work.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I actively experiment and have changed my daily workflows based on what works.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I'm a go-to resource at my firm for AI tools in paralegal work — I help others adopt what I've found effective.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            }
+          ]
+        },
+        {
+          "role": "Legal Operations Manager",
+          "questions": [
+            {
+              "id": 1,
+              "question": "How does AI factor into your approach to contract lifecycle management?",
+              "answers": [
+                { "text": "Contracts are tracked in spreadsheets or a basic CLM with manual updates.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help extract key terms from contracts or flag renewal dates.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI is integrated into our CLM — extracting data, flagging issues, and routing contracts automatically.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Our contract operations are AI-native — intake, review, routing, and reporting are automated end to end.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 2,
+              "question": "How do you approach legal spend management and outside counsel oversight?",
+              "answers": [
+                { "text": "Invoice review and budget tracking done manually or in basic tools.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help analyze billing data or flag rate discrepancies.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me monitor spend patterns, benchmark outside counsel performance, and identify savings opportunities.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Spend management is AI-driven — billing analytics, anomaly detection, and performance reporting are automated.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 3,
+              "question": "How do you manage legal workflow automation and process improvement?",
+              "answers": [
+                { "text": "Processes are largely manual — I identify improvements through observation and feedback.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI tools to automate specific repetitive tasks like intake forms or routing.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI is central to our workflow design — I've automated multiple legal processes and continuously identify new opportunities.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Our legal ops function is substantially AI-powered — I'm building and maintaining an ecosystem of automated workflows across the department.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 4,
+              "question": "How does AI factor into your legal metrics and reporting to leadership?",
+              "answers": [
+                { "text": "I pull data manually from various systems and build reports in Excel.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help generate narrative summaries from data or format dashboards.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI aggregates legal data and generates department dashboards and KPI reports automatically.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Legal reporting is fully automated — real-time dashboards and executive summaries are AI-generated with my oversight.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 5,
+              "question": "How do you approach vendor selection and technology management for the legal department?",
+              "answers": [
+                { "text": "RFP-based evaluation with manual comparison and stakeholder interviews.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help research vendors, summarize capabilities, or draft evaluation criteria.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me evaluate legal tech options, track vendor performance, and assess ROI across our tool stack.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I manage our legal tech ecosystem with AI-driven performance monitoring and a systematic approach to tool evaluation and adoption.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 6,
+              "question": "How does AI factor into matter intake and resource allocation?",
+              "answers": [
+                { "text": "Intake is handled through email or forms, with manual routing by a team member.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help triage or categorize incoming requests.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI classifies and routes matters automatically based on type, priority, and attorney availability.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Matter intake and resource allocation are fully automated — AI handles routing, prioritization, and initial response with minimal human intervention.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 7,
+              "question": "How do you manage legal knowledge management and institutional memory?",
+              "answers": [
+                { "text": "Shared drives and manual documentation — institutional knowledge lives with individuals.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help tag or summarize documents in our knowledge base.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps maintain and surface relevant precedents, playbooks, and past work product across the department.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Our knowledge management is AI-powered — institutional knowledge is automatically captured, organized, and surfaced at the point of need.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 8,
+              "question": "How do you stay current with AI trends relevant to legal operations?",
+              "answers": [
+                { "text": "I follow legal ops and CLOC updates when they come across my feed.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I actively research tools and attend legal tech conferences to stay informed.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I experiment with new tools regularly and translate findings into process improvements.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I'm a recognized practitioner in legal AI — I speak, write, or advise on the topic beyond my own organization.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            }
+          ]
+        },
+        {
+          "role": "Compliance Officer",
+          "questions": [
+            {
+              "id": 1,
+              "question": "How does AI factor into your regulatory monitoring and horizon scanning?",
+              "answers": [
+                { "text": "I track regulatory updates manually through agency websites, alerts, and industry groups.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to summarize regulatory updates or help draft briefing notes.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI monitors regulatory developments across relevant jurisdictions and surfaces material changes for my review.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Regulatory monitoring is automated — AI ingests and analyzes updates, maps them to our obligations, and flags required actions.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 2,
+              "question": "How do you approach policy drafting and updating compliance documentation?",
+              "answers": [
+                { "text": "I write and update policies manually from existing templates.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft policy language or check for gaps against regulatory requirements.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI assists in drafting policy updates, cross-referencing requirements, and maintaining version control systematically.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Policy drafting and maintenance are AI-assisted at scale — AI maps regulatory changes to affected policies and generates required updates.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 3,
+              "question": "How does AI factor into your risk assessments and audits?",
+              "answers": [
+                { "text": "Risk assessments are conducted through interviews, manual checklists, and review of documentation.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help analyze audit data or summarize findings.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me analyze large data sets, identify risk patterns, and generate structured audit findings.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Risk monitoring is continuous and AI-driven — anomalies and compliance gaps are surfaced in real time without waiting for periodic audits.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 4,
+              "question": "How do you handle compliance training and awareness programs?",
+              "answers": [
+                { "text": "Annual training sessions with standard content delivered manually.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help develop training materials or tailor content for different audiences.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me personalize training, track completion, and identify knowledge gaps across the organization.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Training is adaptive and AI-driven — content is personalized by role and risk profile, with real-time assessment of understanding.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 5,
+              "question": "How do you manage third-party and vendor compliance oversight?",
+              "answers": [
+                { "text": "Manual questionnaires, periodic reviews, and contract-based requirements.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help screen vendors or summarize due diligence responses.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me continuously monitor vendor risk, flag issues, and maintain a current view of third-party compliance.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Vendor compliance monitoring is automated — AI tracks, scores, and flags third-party issues continuously without periodic manual reviews.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 6,
+              "question": "How does AI factor into incident response and investigation workflows?",
+              "answers": [
+                { "text": "Incidents are investigated manually with templates and spreadsheet-based tracking.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help document incidents or draft investigation summaries.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me triage incidents, identify root causes, and generate consistent investigation reports.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Incident management is AI-supported end to end — triage, investigation, reporting, and remediation tracking are systematized.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 7,
+              "question": "How do you report on compliance status to leadership and the board?",
+              "answers": [
+                { "text": "I compile reports manually from various tracking systems and documents.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help synthesize data or draft board-level summaries.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI aggregates compliance data and helps me generate consistent, timely reports for leadership.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Compliance reporting is automated — real-time dashboards and executive summaries are AI-generated with my review.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 8,
+              "question": "How do you stay current with AI tools and their regulatory implications?",
+              "answers": [
+                { "text": "I track AI regulation updates when they come through industry channels.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I follow AI regulatory developments and assess implications for our compliance program.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I actively monitor AI regulation and have embedded AI governance into our compliance framework.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I'm a practitioner in AI compliance — I've developed policies, frameworks, or guidance that others in my industry reference.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "industry": "Healthcare",
+      "roles": [
+        {
+          "role": "Physician / Clinician",
+          "questions": [
+            {
+              "id": 1,
+              "question": "How does AI factor into your clinical documentation and note-writing?",
+              "answers": [
+                { "text": "I write notes manually or use standard templates in the EHR.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use ambient AI scribing tools occasionally to assist with note drafting.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI scribing is a consistent part of my workflow — I review and sign AI-generated notes rather than writing from scratch.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "My documentation workflow is fully AI-augmented — AI captures, structures, and prepopulates clinical notes in real time across all encounters.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 2,
+              "question": "How does AI factor into your diagnostic reasoning?",
+              "answers": [
+                { "text": "I rely on clinical training, experience, and standard reference tools.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I occasionally use AI tools to check differential diagnoses or look up rare presentations.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI diagnostic support is part of my clinical workflow for complex or ambiguous cases.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I use AI clinical decision support systematically across my patient population, not just for edge cases.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 3,
+              "question": "How do you approach staying current with clinical literature and treatment guidelines?",
+              "answers": [
+                { "text": "I read journals, attend CME, and rely on my training and colleagues.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to summarize recent research or quickly check updated guidelines.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI surfaces relevant literature and guideline updates for me routinely — I review AI-curated summaries rather than reading everything manually.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Literature review and guideline monitoring are AI-automated — I receive structured briefings on what's changed and what's relevant to my patient population.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 4,
+              "question": "How does AI factor into your approach to prior authorizations and administrative burden?",
+              "answers": [
+                { "text": "My staff handles prior auths manually — it's a significant time burden.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I've adopted some tools that help with PA documentation or submission.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI substantially reduces my administrative burden — prior auths, referrals, and documentation tasks are largely handled with AI assistance.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Administrative workflows are AI-automated — my time is focused on patient care rather than documentation and authorization tasks.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 5,
+              "question": "How do you use AI in patient communication and education?",
+              "answers": [
+                { "text": "Patient communication is verbal or uses standard printed materials.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft patient education materials or after-visit summaries.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me personalize patient communications, generate after-visit summaries, and flag patients for follow-up.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Patient outreach, education, and follow-up are AI-powered — personalized at scale with my oversight for clinical content.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 6,
+              "question": "How does AI factor into population health management or chronic disease monitoring?",
+              "answers": [
+                { "text": "I manage individual patients reactively — population-level analysis isn't part of my regular work.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use registry tools or basic analytics to track a subset of high-risk patients.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me identify at-risk patients, track care gaps, and prioritize outreach across my panel.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "AI monitors my entire patient population continuously — flagging care gaps, predicting deterioration, and prompting proactive intervention.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 7,
+              "question": "How do you think about the appropriate boundaries of AI in clinical decision-making?",
+              "answers": [
+                { "text": "I'm cautious — clinical decisions are mine and I'm not comfortable with AI playing a significant role.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI for informational support but keep clinical judgment clearly in my hands.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I've developed a clear framework for where AI adds value vs. where it needs oversight — and I apply it consistently.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I actively contribute to how my institution or specialty defines appropriate AI use in clinical settings — policy, protocols, or training.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 8,
+              "question": "How do you stay current with AI tools relevant to clinical practice?",
+              "answers": [
+                { "text": "I hear about things through grand rounds or colleagues occasionally.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I follow clinical AI developments and try tools that seem evidence-based and applicable.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I actively experiment and have changed how I practice based on AI tools I've adopted.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I'm a resource for my institution on clinical AI — I advise on adoption, evaluate tools, or contribute to clinical AI research.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            }
+          ]
+        },
+        {
+          "role": "Nurse Practitioner",
+          "questions": [
+            {
+              "id": 1,
+              "question": "How does AI factor into your clinical documentation workflow?",
+              "answers": [
+                { "text": "I write notes manually in the EHR during or after each visit.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use ambient scribing or AI tools occasionally to help with note drafts.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI scribing is consistent in my practice — I review and finalize AI-generated notes routinely.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Documentation is AI-automated across all my encounters — I've reclaimed significant time for patient care.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 2,
+              "question": "How do you use AI in patient assessment and clinical decision support?",
+              "answers": [
+                { "text": "I rely on training, clinical guidelines, and standard reference tools.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI tools to check medications, interactions, or dosing guidelines.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI clinical decision support is part of my workflow — I use it for complex cases, differential generation, and guideline adherence.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "AI decision support is integrated across my practice — I use it proactively rather than reactively.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 3,
+              "question": "How do you approach patient education and health literacy support?",
+              "answers": [
+                { "text": "I use standard printed materials and verbal explanation.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to generate plain-language explanations or tailored education materials.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me personalize patient education content and after-visit instructions efficiently.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Patient education is AI-personalized at scale — content adapts to literacy level, language, and diagnosis automatically.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 4,
+              "question": "How does AI factor into your chronic disease management and follow-up workflows?",
+              "answers": [
+                { "text": "I track patients manually through the EHR and scheduled follow-ups.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use registry tools or basic AI alerts to flag patients due for follow-up.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me monitor chronic disease patients, identify those trending negatively, and prioritize outreach.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Patient monitoring is AI-continuous — I'm alerted to changes in status rather than relying on scheduled check-ins.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 5,
+              "question": "How do you handle prescription management and medication review?",
+              "answers": [
+                { "text": "I review medications manually and check interactions using reference tools.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI tools to flag drug interactions or suggest alternatives.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI medication review is part of my standard workflow for complex patients.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Medication management is AI-supported systematically — reconciliation, interaction checking, and deprescribing support are automated.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 6,
+              "question": "How does AI factor into your care coordination with specialists and other providers?",
+              "answers": [
+                { "text": "Phone calls, faxes, and manual referral letters.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft referral letters or summarize patient history for handoffs.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI generates referral summaries, tracks outstanding consults, and helps me maintain continuity across care teams.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Care coordination is AI-managed — referrals, consult tracking, and care gap identification are automated.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 7,
+              "question": "How do you think about AI's appropriate role in your clinical practice?",
+              "answers": [
+                { "text": "I'm cautious — I prefer to keep AI out of direct clinical decisions.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI for support tasks but keep clinical judgment clearly separate.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I have a clear framework for appropriate AI use and apply it consistently across my practice.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I contribute to how my practice or institution defines responsible AI use in NP/PA workflows.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 8,
+              "question": "How do you stay current with AI tools relevant to NP practice?",
+              "answers": [
+                { "text": "I hear about things through colleagues or professional associations occasionally.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I follow clinical AI news and try tools that seem applicable to my patient population.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I actively experiment and have changed how I practice based on what works.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I'm a resource in my practice or community for AI in advanced practice nursing.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            }
+          ]
+        },
+        {
+          "role": "Healthcare Administrator",
+          "questions": [
+            {
+              "id": 1,
+              "question": "How does AI factor into your operational reporting and performance analysis?",
+              "answers": [
+                { "text": "I pull data manually from EHR and operational systems and build reports in Excel.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help interpret reports or draft executive summaries.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI aggregates operational data and generates dashboards and reports automatically for my review.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Operational reporting is AI-driven in real time — I'm making decisions from live dashboards rather than periodic manual reports.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 2,
+              "question": "How do you approach staffing, scheduling, and capacity planning?",
+              "answers": [
+                { "text": "Scheduling is done manually with spreadsheets or basic scheduling software.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI tools to help forecast demand or flag staffing gaps.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me optimize staffing based on demand patterns, patient volumes, and staff availability.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Staffing and capacity planning are AI-optimized — schedules are generated automatically and adjusted dynamically based on real-time demand.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 3,
+              "question": "How does AI factor into your revenue cycle and billing oversight?",
+              "answers": [
+                { "text": "Billing and coding are managed by a separate team with manual oversight.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help analyze denial trends or summarize billing performance.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me monitor revenue cycle KPIs, identify coding gaps, and flag denial patterns for intervention.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Revenue cycle monitoring is AI-driven — claim optimization, denial prediction, and coding accuracy are automated.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 4,
+              "question": "How do you handle compliance documentation and regulatory reporting?",
+              "answers": [
+                { "text": "Manual processes — policies are maintained manually and reports compiled by hand.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft compliance documentation or summarize regulatory requirements.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI assists in maintaining compliance documentation, monitoring regulatory changes, and generating required reports.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Compliance workflows are AI-automated — documentation, monitoring, and reporting happen systematically with my oversight.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 5,
+              "question": "How does AI factor into patient experience and satisfaction management?",
+              "answers": [
+                { "text": "I review HCAHPS scores and patient feedback manually and periodically.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help analyze survey results or identify common complaint themes.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me monitor patient feedback continuously, identify trends, and surface improvement opportunities in real time.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Patient experience monitoring is AI-driven — sentiment analysis, trend detection, and intervention recommendations are automated.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 6,
+              "question": "How do you approach vendor management and procurement decisions?",
+              "answers": [
+                { "text": "RFP-based procurement with manual comparison and stakeholder review.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help research vendors or draft evaluation criteria.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me evaluate vendors, track contract performance, and assess ROI across our supply chain.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Vendor management is AI-supported — performance monitoring, contract alerts, and spend analysis are automated.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 7,
+              "question": "How do you manage communication and coordination across clinical and administrative teams?",
+              "answers": [
+                { "text": "Email, meetings, and manual follow-up on action items.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft communications or summarize meeting notes.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me track cross-functional commitments, automate routine communications, and maintain operational alignment.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Cross-team coordination is AI-assisted at scale — status tracking, escalations, and follow-ups are systematized.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 8,
+              "question": "How do you stay current with AI tools relevant to healthcare administration?",
+              "answers": [
+                { "text": "I hear about things through ACHE or MGMA updates occasionally.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I follow healthcare technology news and evaluate tools that apply to my operational challenges.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I actively pilot tools and have changed our operational workflows based on what's worked.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I'm a resource for my organization or peers on AI in healthcare operations — I advise, present, or write on the topic.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            }
+          ]
+        },
+        {
+          "role": "Medical Researcher",
+          "questions": [
+            {
+              "id": 1,
+              "question": "How does AI factor into your literature review and research synthesis process?",
+              "answers": [
+                { "text": "I search PubMed, read papers manually, and synthesize findings myself.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help summarize papers or identify relevant citations faster.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI is central to my literature review — I use tools to surface, screen, and synthesize relevant research systematically.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Literature review is AI-automated — I've built workflows that continuously monitor and synthesize research relevant to my work.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 2,
+              "question": "How do you approach data analysis in your research?",
+              "answers": [
+                { "text": "I run statistical analyses manually in R, SPSS, or Stata.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI tools to help with data cleaning, visualization, or interpreting statistical output.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI accelerates my analysis pipeline — pattern detection, model selection, and preliminary interpretation are AI-assisted.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "My analysis workflows are AI-driven — from data ingestion to hypothesis generation to reporting, AI handles significant portions autonomously.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 3,
+              "question": "How does AI factor into your grant writing and research proposal development?",
+              "answers": [
+                { "text": "I write proposals from scratch — it's a slow, manual process.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help refine language, structure sections, or check for consistency.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me draft specific aims, literature sections, and significance narratives that I revise and refine.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Grant writing is substantially AI-assisted — I focus on scientific strategy while AI handles much of the drafting and formatting.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 4,
+              "question": "How do you approach research protocol development and IRB documentation?",
+              "answers": [
+                { "text": "Protocols and consent forms are written manually using institutional templates.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft protocol sections or check consent language.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me develop protocols consistently, check against regulatory requirements, and draft IRB documentation efficiently.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Protocol development is AI-assisted from design to documentation — I focus on scientific decisions while AI handles structure and compliance checks.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 5,
+              "question": "How does AI factor into your manuscript writing and publication process?",
+              "answers": [
+                { "text": "I write manuscripts from scratch with co-authors, editing through multiple rounds manually.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help with editing, structure, or generating figure captions.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me draft sections, suggest relevant citations, and accelerate the writing and revision process.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Manuscript development is AI-integrated — first drafts of most sections are AI-generated, with my scientific judgment applied throughout.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 6,
+              "question": "How do you use AI in hypothesis generation and study design?",
+              "answers": [
+                { "text": "Hypothesis generation is based on my reading, observation, and conversations with colleagues.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to explore existing data or literature for patterns that might inform hypotheses.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me generate and stress-test hypotheses by analyzing existing datasets and identifying gaps in the literature.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "AI is a primary driver of hypothesis generation in my work — I use large-scale data analysis and AI-generated insights to identify research directions.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 7,
+              "question": "How do you think about the appropriate use of AI in research integrity and reproducibility?",
+              "answers": [
+                { "text": "I'm cautious — AI introduces uncertainty and I prefer established methods.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI for lower-risk tasks and document its use carefully for transparency.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I've developed clear protocols for AI use that maintain reproducibility and transparency in my research.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I contribute to how my field defines responsible AI use in research — through publication, policy, or peer guidance.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 8,
+              "question": "How do you stay current with AI tools relevant to your research domain?",
+              "answers": [
+                { "text": "I hear about things through conferences or colleagues occasionally.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I follow AI in research news and evaluate tools relevant to my methods.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I actively experiment and have changed my research methods based on AI tools I've adopted.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I'm at the frontier — I publish on AI methods in research, advise peers, or contribute to AI research tools directly.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "industry": "Software",
+      "roles": [
+        {
+          "role": "Software Engineer",
+          "questions": [
+            {
+              "id": 1,
+              "question": "How does AI factor into your day-to-day coding workflow?",
+              "answers": [
+                { "text": "I write code manually — I look things up in docs or Stack Overflow when I'm stuck.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use Copilot or similar for autocomplete and occasionally ask AI to generate code snippets.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI is central to how I code — I use it for generation, refactoring, debugging, and code review as part of my standard loop.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I've restructured how I work around AI — I'm directing AI agents to handle significant portions of implementation while I focus on architecture and review.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 2,
+              "question": "How do you approach debugging and troubleshooting?",
+              "answers": [
+                { "text": "I work through bugs manually — logs, breakpoints, and reading code.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I paste error messages into ChatGPT or Copilot Chat when I'm stuck.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI is my first debugging partner — I share context, stack traces, and code and iterate with AI to resolve issues faster.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I've built or use automated debugging workflows — AI monitors logs, identifies anomalies, and surfaces likely root causes before I start investigating.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 3,
+              "question": "How does AI factor into your approach to writing tests?",
+              "answers": [
+                { "text": "I write unit and integration tests manually.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to generate test cases for specific functions or edge cases.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI generates a significant portion of my test suite — I review and augment rather than write from scratch.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Test generation is automated in my workflow — AI writes tests as code is produced with minimal manual input.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 4,
+              "question": "How does AI factor into code review and maintaining code quality?",
+              "answers": [
+                { "text": "Code review is done manually by teammates — I read and comment on PRs.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to do a first pass on my own code before submitting for review.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI code review is integrated into my PR workflow — it consistently catches issues and suggests improvements before human review.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "AI automated review is embedded in our CI/CD pipeline — quality, security, and style checks run automatically on every commit.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 5,
+              "question": "How do you handle technical documentation and code comments?",
+              "answers": [
+                { "text": "I write docs and comments manually — often after the fact.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help generate docstrings or clean up readme content.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI generates documentation alongside code — I review and refine rather than write.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Documentation is auto-generated from code and kept in sync automatically — it's not a separate task.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 6,
+              "question": "How does AI factor into system design and architecture decisions?",
+              "answers": [
+                { "text": "I draw on experience, documentation, and peer input to make architectural decisions.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to explore tradeoffs or get a quick overview of architecture patterns I'm less familiar with.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI is a regular sounding board for system design — I use it to stress-test approaches and identify risks before committing.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I use AI to model complex system behaviors, simulate failure modes, and evaluate architectural options at a depth that wasn't practical before.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 7,
+              "question": "How do you use AI when picking up unfamiliar codebases or technologies?",
+              "answers": [
+                { "text": "I read through the code, documentation, and examples manually.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to explain unfamiliar code or give me a quick overview of a new framework.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI significantly accelerates my onboarding to new codebases — I use it to map architecture, understand patterns, and get productive fast.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I've built workflows where AI ingests and analyzes codebases before I engage — giving me a structured understanding before I write a line.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 8,
+              "question": "How do you stay current with AI coding tools and their implications for engineering?",
+              "answers": [
+                { "text": "I hear about new tools through colleagues or occasional articles.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I follow AI coding tools closely and try new ones when they get traction.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I experiment extensively and have restructured how I work based on what I've found effective.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I'm shaping how my team or engineering community thinks about AI-augmented development — through advocacy, tooling, or published thinking.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            }
+          ]
+        },
+        {
+          "role": "Product Manager",
+          "questions": [
+            {
+              "id": 1,
+              "question": "How does AI factor into your product discovery and user research synthesis?",
+              "answers": [
+                { "text": "I review research notes, interview transcripts, and data manually to form insights.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help summarize research findings or group themes from user interviews.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI is central to my research synthesis — I use it to process large volumes of qualitative and quantitative data into actionable insights quickly.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Discovery is AI-augmented end to end — I've built workflows that ingest user data, surface patterns, and generate prioritized opportunity areas automatically.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 2,
+              "question": "How do you approach roadmap planning and prioritization?",
+              "answers": [
+                { "text": "Roadmapping is done manually — frameworks like RICE or MoSCoW applied by hand.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help structure a roadmap, draft initiative descriptions, or analyze tradeoffs.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me synthesize input from multiple sources — data, research, stakeholders — into prioritized roadmap recommendations.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Roadmap inputs are aggregated and scored by AI — I'm making final calls on a structured, AI-generated priority framework.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 3,
+              "question": "How does AI factor into writing PRDs, user stories, and specs?",
+              "answers": [
+                { "text": "I write requirements documents manually from scratch.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft user stories or flesh out sections of a PRD.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI drafts PRDs and specs that I review and refine — significantly faster than writing from scratch.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Requirements documentation is largely AI-generated from my inputs — I'm editing and making judgment calls rather than writing.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 4,
+              "question": "How do you approach competitive analysis and market research?",
+              "answers": [
+                { "text": "I research competitors manually — product walkthroughs, review sites, industry reports.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to summarize competitor features or synthesize analyst reports.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI generates competitive landscape summaries and monitors for relevant changes — I review and act on AI-synthesized intel.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Competitive monitoring is automated — AI tracks competitor updates, reviews, and market signals continuously and surfaces what matters.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 5,
+              "question": "How does AI factor into your stakeholder communication and alignment work?",
+              "answers": [
+                { "text": "I write memos, updates, and presentations manually for each stakeholder group.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft update emails, meeting agendas, or executive summaries.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me tailor communications for different stakeholders efficiently and keeps alignment documentation current.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Stakeholder communications are largely AI-generated from product data — I review and personalize rather than write.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 6,
+              "question": "How do you use AI to analyze product metrics and inform decisions?",
+              "answers": [
+                { "text": "I query dashboards and spreadsheets manually and form hypotheses from what I see.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help interpret data, explain anomalies, or suggest what to look at next.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me continuously monitor product metrics, surface meaningful trends, and generate hypothesis-driven analysis.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Product analytics are AI-driven — I receive proactive insights and anomaly alerts rather than reactive querying.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 7,
+              "question": "How does AI factor into sprint planning and delivery management?",
+              "answers": [
+                { "text": "Sprint planning is collaborative and manual — story pointing, backlog grooming, capacity tracking done by hand.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help write tickets, estimate stories, or draft sprint goals.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me maintain the backlog, identify blockers early, and keep delivery tracking current automatically.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Sprint management is largely automated — backlog health, velocity tracking, and risk flags are AI-generated with my oversight.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 8,
+              "question": "How do you stay current with AI tools relevant to product management?",
+              "answers": [
+                { "text": "I hear about tools through Lenny's Newsletter or colleagues occasionally.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I follow PM and AI tooling news and try things that seem applicable to my workflow.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I experiment regularly and have changed how I work as a result of tools I've adopted.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I'm ahead of most PMs on AI — I share what works, advise others, or publish thinking on AI in product management.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            }
+          ]
+        },
+        {
+          "role": "Product Designer / UX",
+          "questions": [
+            {
+              "id": 1,
+              "question": "When a new project kicks off, how does AI fit into your discovery and competitive research?",
+              "answers": [
+                { "text": "I do it manually — browsing, screenshotting, taking notes.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to summarize findings or help write up a brief.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI is part of my research workflow — generating landscape overviews, spotting patterns, structuring insights.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I've built or use an automated workflow that pulls and synthesizes competitive research before I open a file.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 2,
+              "question": "When exploring concepts and directions early on, what does that look like?",
+              "answers": [
+                { "text": "Sketching, moodboards, references — mostly manual.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I'll ask Claude or ChatGPT to suggest directions or critique an idea.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI is part of my ideation loop — generating, reacting, pushing directions fast.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I use AI to generate multiple full concepts quickly and use them as real starting points.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 3,
+              "question": "How do wireframes and flows get made in your process?",
+              "answers": [
+                { "text": "I build them from scratch in Figma or on paper.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI for content, copy, or structure — but I'm still building in Figma.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I use AI tools to generate layout options or flows that I then refine.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I'm bypassing traditional wireframing — going straight to code-based prototypes or AI-generated screens.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 4,
+              "question": "When you need feedback on a design, what do you do?",
+              "answers": [
+                { "text": "I share with teammates or a lead and wait for a review.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I'll paste a screenshot into Claude or Figma AI for a quick gut check.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I regularly prompt AI with context — user goals, constraints — to get specific, useful critique.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I have a repeatable prompt system or workflow that gives me structured design feedback on demand.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 5,
+              "question": "How do you handle design-to-development handoff and documentation?",
+              "answers": [
+                { "text": "I write specs, annotate Figma files, and communicate manually.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help write or clean up documentation.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I use AI to generate component specs, copy, or handoff notes as part of my regular process.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I'm working in tools or workflows where design and code are closer together — AI reduces the handoff gap significantly.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 6,
+              "question": "How do you approach user research synthesis in a software product context?",
+              "answers": [
+                { "text": "I review interview notes and session recordings manually.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help tag themes or summarize findings from research sessions.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI processes research data and surfaces patterns — I validate and act on AI-generated insights.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Research synthesis is AI-automated — transcripts, surveys, and usage data are analyzed and synthesized before I review.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 7,
+              "question": "How does AI factor into your work on design systems and component documentation?",
+              "answers": [
+                { "text": "I document components manually and maintain the design system by hand.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help write component descriptions or usage guidelines.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me maintain component documentation, check for inconsistencies, and generate usage examples.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Design system documentation is AI-generated from component data — I focus on standards and governance, not maintenance.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 8,
+              "question": "How do you stay current with AI tools relevant to product design?",
+              "answers": [
+                { "text": "I hear about things when they come up.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I follow the space and try new tools when something looks useful.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I experiment regularly and have a go-to set of tools that changed how I work.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I'm testing new tools before most people, sharing what works, and shaping how my team or community uses them.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            }
+          ]
+        },
+        {
+          "role": "QA / Test Engineer",
+          "questions": [
+            {
+              "id": 1,
+              "question": "How does AI factor into your test planning and test case development?",
+              "answers": [
+                { "text": "I write test plans and test cases manually based on requirements.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help generate test cases for specific features or edge conditions.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI generates comprehensive test suites from requirements — I review, prioritize, and fill gaps.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Test planning is AI-driven — test cases are auto-generated from PRDs, code changes, and historical defect patterns.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 2,
+              "question": "How do you approach test automation and maintenance?",
+              "answers": [
+                { "text": "I write automation scripts manually and update them when things break.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help generate automation scripts or debug failing tests.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI generates and maintains automation code — I review outputs and focus on coverage strategy.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Automation is AI-managed — scripts are generated, self-healed when they break, and continuously expanded based on code changes.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 3,
+              "question": "How does AI factor into bug reporting and defect analysis?",
+              "answers": [
+                { "text": "I write bug reports manually and investigate root causes through testing.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help write clear bug descriptions or suggest potential root causes.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me analyze defect patterns, prioritize bugs, and generate detailed, consistent bug reports.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Defect analysis is AI-driven — AI identifies patterns, predicts high-risk areas, and generates bug reports from test failure data.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 4,
+              "question": "How do you approach regression testing and release validation?",
+              "answers": [
+                { "text": "Manual regression runs through a checklist of critical paths before each release.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help identify which tests to run based on the scope of changes.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI prioritizes regression suites dynamically based on code changes and historical risk data.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Regression is AI-orchestrated — test selection, execution, and results analysis are automated end to end.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 5,
+              "question": "How does AI factor into performance and load testing?",
+              "answers": [
+                { "text": "I run performance tests manually using tools like JMeter with static scripts.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help analyze performance results or identify bottlenecks.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me generate realistic load scenarios, analyze performance data, and surface regressions.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Performance testing is AI-driven — scenarios are generated from real usage patterns, anomalies are automatically flagged.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 6,
+              "question": "How does AI factor into your security and accessibility testing?",
+              "answers": [
+                { "text": "I run manual accessibility audits and rely on security teams for vulnerability testing.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI tools to scan for accessibility violations or common security issues.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI-powered accessibility and security scanning is integrated into my testing workflow and runs automatically.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Security and accessibility testing are continuous and AI-driven — issues are surfaced in real time as part of the CI/CD pipeline.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 7,
+              "question": "How do you communicate quality status and test results to the team?",
+              "answers": [
+                { "text": "I write test summary reports manually after each cycle.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help format or summarize test results for stakeholders.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI generates quality dashboards and test summary reports automatically — I review and contextualize.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Quality reporting is fully automated — stakeholders have real-time visibility without manual reporting from me.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 8,
+              "question": "How do you stay current with AI tools relevant to QA and test engineering?",
+              "answers": [
+                { "text": "I hear about tools through colleagues or testing conferences occasionally.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I follow QA and testing tooling news and try things that apply to my projects.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I actively experiment and have restructured my testing approach based on what I've learned.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I'm ahead of most QA engineers on AI — I share findings, contribute to tooling, or publish thinking on AI-driven quality engineering.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "industry": "Admin / Operations",
+      "roles": [
+        {
+          "role": "Executive Assistant",
+          "questions": [
+            {
+              "id": 1,
+              "question": "How does AI factor into your calendar and scheduling management?",
+              "answers": [
+                { "text": "I manage calendars manually — emails, back-and-forth coordination, and direct booking.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI tools to help draft scheduling emails or find meeting times.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI handles significant scheduling coordination — I oversee and confirm rather than orchestrate each meeting manually.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Scheduling is largely automated — AI manages the executive's calendar, handles routine coordination, and only escalates conflicts to me.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 2,
+              "question": "How do you handle email and correspondence management?",
+              "answers": [
+                { "text": "I read, draft, and send all emails manually.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft responses or summarize long email threads.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI drafts most routine correspondence — I review, personalize, and send rather than compose.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Email management is largely AI-handled — triage, drafting, and routing happen automatically with my oversight on sensitive or complex items.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 3,
+              "question": "How do you prepare for meetings — agendas, briefings, and materials?",
+              "answers": [
+                { "text": "I compile briefing materials, write agendas, and gather context manually.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft agendas or summarize background materials.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI generates meeting prep materials — briefings, agendas, and relevant context — that I review and refine.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Meeting prep is largely automated — AI produces executive briefings from email, calendar, and document context before each meeting.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 4,
+              "question": "How do you manage travel planning and logistics?",
+              "answers": [
+                { "text": "I plan travel manually — researching options, booking, and coordinating itineraries.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help research options or draft travel itineraries.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI handles significant portions of travel planning — I review and confirm rather than research from scratch.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Travel planning is largely automated — AI generates itineraries, coordinates logistics, and handles changes proactively.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 5,
+              "question": "How do you handle document preparation and report compilation?",
+              "answers": [
+                { "text": "I create documents and compile reports manually from various sources.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft documents or format reports.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI generates first drafts of documents and reports from source materials — I refine and finalize.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Document and report production is largely automated — AI aggregates, formats, and produces materials on schedule.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 6,
+              "question": "How does AI factor into managing action items and follow-ups from meetings?",
+              "answers": [
+                { "text": "I take notes manually and track action items in a spreadsheet or task list.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help transcribe meetings or draft follow-up emails.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI captures action items from meetings, drafts follow-up communications, and tracks outstanding items automatically.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Meeting follow-up is fully automated — AI transcribes, extracts actions, routes them to owners, and tracks completion.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 7,
+              "question": "How do you manage sensitive information and executive communications?",
+              "answers": [
+                { "text": "Fully manual and handled with strict personal discretion.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI for lower-sensitivity tasks and keep confidential matters entirely manual.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I've developed a clear framework for what AI handles vs. what stays manual, based on sensitivity and confidentiality.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I manage a sophisticated system where AI handles appropriate tasks while I've implemented clear protocols for sensitive information boundaries.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 8,
+              "question": "How do you stay current with AI tools relevant to executive support?",
+              "answers": [
+                { "text": "I hear about tools through colleagues or occasional articles.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I follow EA communities and try tools that seem applicable to my role.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I actively experiment and have changed how I support the executive based on tools I've adopted.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I'm ahead of most EAs on AI — I share what works and help others in the profession adopt it effectively.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            }
+          ]
+        },
+        {
+          "role": "Operations Manager",
+          "questions": [
+            {
+              "id": 1,
+              "question": "How does AI factor into your process documentation and workflow design?",
+              "answers": [
+                { "text": "I document processes manually and update SOPs through interviews and observation.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft process documents or clean up SOPs.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me map processes, identify inefficiencies, and generate structured documentation faster.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Process documentation is AI-generated and maintained continuously — changes in workflow are reflected automatically.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 2,
+              "question": "How do you approach operational reporting and performance monitoring?",
+              "answers": [
+                { "text": "I pull data from multiple systems manually and compile reports in spreadsheets.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help analyze operational data or draft performance summaries.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI aggregates operational data and generates dashboards and KPI reports automatically.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Operations monitoring is real-time and AI-driven — I'm alerted to issues and given recommendations rather than pulling periodic reports.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 3,
+              "question": "How does AI factor into vendor management and procurement?",
+              "answers": [
+                { "text": "Vendor relationships and procurement are managed manually through email and spreadsheets.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft RFPs, summarize vendor proposals, or analyze contract terms.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me track vendor performance, monitor contract obligations, and flag issues proactively.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Vendor management is largely automated — performance monitoring, renewal alerts, and spend tracking run without manual input.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 4,
+              "question": "How do you approach resource planning and capacity management?",
+              "answers": [
+                { "text": "Manual forecasting based on historical patterns and stakeholder input.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help model scenarios or validate capacity assumptions.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me forecast demand, model capacity scenarios, and optimize resource allocation dynamically.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Resource planning is AI-driven — demand forecasting and allocation recommendations are automated and continuously updated.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 5,
+              "question": "How does AI factor into identifying and resolving operational bottlenecks?",
+              "answers": [
+                { "text": "I identify problems through observation, team feedback, and periodic reviews.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help analyze data or think through root causes when problems arise.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI monitors operational data and surfaces bottlenecks and inefficiencies before they escalate.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Operational health is continuously monitored by AI — issues are flagged, root causes identified, and potential solutions surfaced automatically.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 6,
+              "question": "How does AI factor into cross-team communication and project coordination?",
+              "answers": [
+                { "text": "Email, meetings, and manual follow-up on action items.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft communications, meeting agendas, or project updates.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me track cross-functional commitments, automate status updates, and maintain alignment documentation.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Cross-team coordination is AI-assisted at scale — tracking, escalations, and communications are systematized.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 7,
+              "question": "How do you approach continuous improvement and operational innovation?",
+              "answers": [
+                { "text": "Improvement initiatives come from team retrospectives and leadership direction.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to research best practices or benchmark against industry standards.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me continuously analyze operational data and identify improvement opportunities systematically.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I've built an AI-driven continuous improvement loop — data feeds into analysis, which generates recommendations, which I evaluate and implement.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 8,
+              "question": "How do you stay current with AI tools relevant to operations management?",
+              "answers": [
+                { "text": "I hear about tools through industry groups or colleagues occasionally.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I follow ops and automation news and evaluate tools that apply to my function.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I actively pilot tools and have changed our operational workflows based on what's worked.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I'm ahead of most ops managers on AI — I share what works and advise peers or leadership on AI in operations.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            }
+          ]
+        },
+        {
+          "role": "Office Administrator",
+          "questions": [
+            {
+              "id": 1,
+              "question": "How does AI factor into managing office communications and correspondence?",
+              "answers": [
+                { "text": "I handle all communications manually — reading, drafting, and sending.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft routine emails or responses to common inquiries.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI drafts most routine communications — I review and send rather than compose.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Routine communications are AI-handled — triage, responses, and routing happen automatically with my oversight.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 2,
+              "question": "How do you handle scheduling and facilities coordination?",
+              "answers": [
+                { "text": "Room bookings, visitor management, and scheduling done manually.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft scheduling communications or coordinate meeting logistics.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI handles significant coordination tasks — I oversee and handle exceptions rather than managing each booking manually.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Facilities and scheduling coordination is largely automated — AI manages bookings, sends confirmations, and escalates issues.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 3,
+              "question": "How does AI factor into document management and record keeping?",
+              "answers": [
+                { "text": "Files are organized and maintained manually in shared drives.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help label, summarize, or organize documents.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps maintain organized document systems — categorizing, tagging, and surfacing relevant files automatically.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Document management is AI-automated — filing, retention, and retrieval are handled without manual intervention.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 4,
+              "question": "How do you handle vendor coordination and supply ordering?",
+              "answers": [
+                { "text": "I track supplies manually and manage vendor communications through email.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft vendor communications or track order status.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me monitor supply levels, coordinate reorders, and track vendor commitments proactively.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Supply management is automated — AI monitors levels, triggers orders, and manages vendor communications with minimal manual input.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 5,
+              "question": "How does AI factor into onboarding new employees or visitors?",
+              "answers": [
+                { "text": "Onboarding is coordinated manually — welcome emails, access setup, and orientation materials assembled each time.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft onboarding materials or welcome communications.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me automate onboarding workflows — checklists, welcome sequences, and access coordination are largely systematized.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Onboarding is fully automated — AI manages the process from arrival notification to day-one setup with minimal manual effort.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 6,
+              "question": "How do you manage expense tracking and budget reporting?",
+              "answers": [
+                { "text": "Manual expense tracking in spreadsheets and periodic report compilation.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help categorize expenses or draft budget summaries.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me maintain accurate expense tracking and generate budget reports automatically.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Expense management is automated — AI processes receipts, categorizes spend, and generates reports without manual data entry.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 7,
+              "question": "How do you handle event and meeting coordination?",
+              "answers": [
+                { "text": "Events are planned and coordinated manually — logistics, communications, and follow-up done by hand.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft event communications or create run-of-show documents.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me coordinate event logistics, automate communications, and track RSVPs and action items.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Event coordination is largely automated — AI manages invites, logistics tracking, and follow-up communications.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 8,
+              "question": "How do you stay current with AI tools relevant to office administration?",
+              "answers": [
+                { "text": "I hear about tools through colleagues or occasionally through the software we use.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I try tools that seem useful when I come across them.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I actively look for tools that can improve how I manage office operations and have adopted several.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I'm a resource for our office on AI tools — I evaluate, recommend, and help others get started.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            }
+          ]
+        },
+        {
+          "role": "Chief of Staff",
+          "questions": [
+            {
+              "id": 1,
+              "question": "How does AI factor into your executive communication and briefing preparation?",
+              "answers": [
+                { "text": "I compile briefings, talking points, and communications manually from various sources.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft executive communications or summarize key inputs.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI generates briefing materials and executive communications — I review, refine, and add context.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Executive communications and briefings are AI-generated from live data sources — I focus on judgment and positioning, not drafting.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 2,
+              "question": "How does AI factor into tracking cross-functional initiatives and commitments?",
+              "answers": [
+                { "text": "I maintain trackers manually and follow up with stakeholders to get status updates.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help organize tracking information or draft status update communications.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI monitors initiative status, flags risks, and generates rollup reports automatically.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Cross-functional tracking is AI-managed — status, risks, and escalations are surfaced without me manually chasing stakeholders.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 3,
+              "question": "How do you approach strategic research and competitive intelligence for leadership?",
+              "answers": [
+                { "text": "I research topics manually and synthesize findings into briefings by hand.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to summarize research materials or help structure analysis.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me rapidly synthesize research, identify relevant trends, and generate structured intelligence for leadership.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Strategic intelligence is AI-driven — I've built monitoring systems that surface relevant developments before leadership needs to ask.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 4,
+              "question": "How does AI factor into meeting management and decision facilitation?",
+              "answers": [
+                { "text": "I prepare agendas manually, take notes, and follow up on decisions by hand.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft agendas, transcribe meetings, or generate follow-up summaries.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI handles meeting prep, transcription, action item extraction, and follow-up systematically.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Meeting management is fully AI-supported — from pre-read generation to post-meeting action tracking, with minimal manual administration.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 5,
+              "question": "How do you approach organizational health monitoring and team alignment?",
+              "answers": [
+                { "text": "I rely on conversations, surveys, and direct observation to gauge org health.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help analyze engagement survey results or synthesize team feedback.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me monitor signals of organizational health across multiple sources and surface emerging issues.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Org health monitoring is AI-driven — sentiment, alignment gaps, and risk signals are continuously tracked and surfaced to me.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 6,
+              "question": "How does AI factor into project management and delivery oversight?",
+              "answers": [
+                { "text": "Project status is tracked manually and I follow up with teams directly.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help draft project updates or analyze timeline risks.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI monitors project health across my portfolio and flags risks and delays proactively.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Portfolio management is AI-driven — status, risks, and escalation recommendations are generated automatically.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 7,
+              "question": "How do you manage information flow and knowledge management across the organization?",
+              "answers": [
+                { "text": "Information flows through meetings, email, and shared drives — largely unstructured.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I use AI to help summarize or distribute key information across teams.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "AI helps me manage information flow — capturing, organizing, and distributing knowledge systematically.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "Knowledge management is AI-powered — institutional knowledge is captured, organized, and surfaced at the point of need without manual curation.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            },
+            {
+              "id": 8,
+              "question": "How do you stay current with AI tools relevant to the Chief of Staff function?",
+              "answers": [
+                { "text": "I hear about tools through executive networks or colleagues occasionally.", "proficiency": "AI-Curious", "score": 1 },
+                { "text": "I follow leadership and ops tooling news and evaluate what applies to my role.", "proficiency": "AI-Adopter", "score": 2 },
+                { "text": "I actively experiment and have changed how I support the executive team based on what I've adopted.", "proficiency": "AI-Integrated", "score": 3 },
+                { "text": "I'm a resource for CoS peers and my organization on AI — I advise, share frameworks, and influence how AI is adopted at the leadership level.", "proficiency": "AI-Native", "score": 4 }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
