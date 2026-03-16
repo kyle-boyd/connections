@@ -117,6 +117,8 @@ function MatchForm({
 }
 
 export default function MatchPage() {
+  useEffect(() => { document.title = "Find Your Match | Guild"; }, []);
+
   const [proficiencyLevel, setProficiencyLevel] = useState<string | null>(null);
   const [stageScores, setStageScores] = useState<string | null>(null);
   const [industry, setIndustry] = useState<string | null>(null);

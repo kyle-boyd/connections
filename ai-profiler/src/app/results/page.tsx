@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { calculateResults } from "@/lib/calculateResults";
 import type { CalculateResultsOutput, ProficiencyLabel } from "@/lib/calculateResults";
@@ -20,17 +20,22 @@ const LEVEL_COPY: Record<ProficiencyLabel, string> = {
 };
 
 export default function ResultsPage() {
+  useEffect(() => { document.title = "Your Results | Guild"; }, []);
+
   const [result, setResult] = useState<CalculateResultsOutput | null>(null);
   const [industry, setIndustry] = useState<string | null>(null);
   const [role, setRole] = useState<string | null>(null);
   const [loaded, setLoaded] = useState(false);
+  const recorded = useRef(false);
 
   const loadResults = useCallback(() => {
     const answers = getStoredAnswers();
+    let calcResult: CalculateResultsOutput | null = null;
     if (!answers || answers.length === 0) {
       setResult(null);
     } else {
-      setResult(calculateResults(answers));
+      calcResult = calculateResults(answers);
+      setResult(calcResult);
     }
 
     const metadata = getSurveyMetadata();
@@ -40,6 +45,25 @@ export default function ResultsPage() {
     }
 
     setLoaded(true);
+
+    // Record survey result once (even without contact info)
+    if (calcResult && !recorded.current) {
+      recorded.current = true;
+      void fetch("/api/survey-result", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          proficiency_level: calcResult.level,
+          stage_scores: {
+            averageScore: calcResult.averageScore,
+            minScore: calcResult.minScore,
+            maxScore: calcResult.maxScore,
+          },
+          industry: metadata?.industry ?? null,
+          role: metadata?.role ?? null,
+        }),
+      });
+    }
   }, []);
 
   useEffect(() => {

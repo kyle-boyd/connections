@@ -22,6 +22,8 @@ function makeQuestionId(industry: Industry, role: Role, question: RoleQuestion) 
 export default function SurveyPage() {
   const router = useRouter();
 
+  useEffect(() => { document.title = "Survey | Guild"; }, []);
+
   const [phase, setPhase] = useState<Phase>("industry");
   const [loading, setLoading] = useState(true);
   const [loadError, setLoadError] = useState<string | null>(null);

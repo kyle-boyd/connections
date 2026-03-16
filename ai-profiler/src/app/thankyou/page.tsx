@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect } from "react";
 import Link from "next/link";
 
 const LINKEDIN_SHARE_URL =
@@ -7,6 +8,8 @@ const LINKEDIN_SHARE_URL =
   encodeURIComponent("https://aiconnectorguild.com");
 
 export default function ThankYouPage() {
+  useEffect(() => { document.title = "Thank You | Guild"; }, []);
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-background px-8">
       <div className="max-w-md text-center">

@@ -7,7 +7,9 @@
       "Bash(git commit:*)",
       "Bash(git push:*)",
       "Read(//Users/coe-kboyd/Downloads/**)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(find /Users/coe-kboyd/Documents/GitHub/connections/ai-profiler -name *.sql -o -name *schema* -o -name *migration*)",
+      "Bash(grep -r \"CREATE TABLE\\\\|INSERT\\\\|matches\" /Users/coe-kboyd/Documents/GitHub/connections/ai-profiler/src --include=*.ts --include=*.tsx)"
     ],
     "additionalDirectories": [
       "/Users/coe-kboyd/Documents/GitHub/connections/ai-profiler/.git",
