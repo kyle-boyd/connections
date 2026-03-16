@@ -9,7 +9,21 @@
       "Read(//Users/coe-kboyd/Downloads/**)",
       "Bash(git add:*)",
       "Bash(find /Users/coe-kboyd/Documents/GitHub/connections/ai-profiler -name *.sql -o -name *schema* -o -name *migration*)",
-      "Bash(grep -r \"CREATE TABLE\\\\|INSERT\\\\|matches\" /Users/coe-kboyd/Documents/GitHub/connections/ai-profiler/src --include=*.ts --include=*.tsx)"
+      "Bash(grep -r \"CREATE TABLE\\\\|INSERT\\\\|matches\" /Users/coe-kboyd/Documents/GitHub/connections/ai-profiler/src --include=*.ts --include=*.tsx)",
+      "Bash(git -C /Users/coe-kboyd/Documents/GitHub/connections log --oneline --all)",
+      "Bash(git -C /Users/coe-kboyd/Documents/GitHub/connections ls-files --others --exclude-standard)",
+      "Bash(git -C /Users/coe-kboyd/Documents/GitHub/connections show --stat HEAD~1 HEAD~2 HEAD~3 HEAD~4 HEAD~5)",
+      "Bash(git -C /Users/coe-kboyd/Documents/GitHub/connections ls-files)",
+      "Bash(git -C /Users/coe-kboyd/Documents/GitHub/connections log --all --full-history -- \"**/.env*\")",
+      "Bash(git -C /Users/coe-kboyd/Documents/GitHub/connections log --all --oneline --diff-filter=A -- \"*.env\" \"*.env.*\" \".env\" \".env.local\" \".env.production\")",
+      "Bash(xargs -I{} git -C /Users/coe-kboyd/Documents/GitHub/connections show HEAD:{})",
+      "Bash(while read:*)",
+      "Bash(do git:*)",
+      "Bash(done)",
+      "Bash(grep -iE \"\\(figd_[A-Za-z0-9_-]{30,}|sk-[A-Za-z0-9]{30,}|AKIA[A-Z0-9]{16}|ghp_[A-Za-z0-9]{36}|eyJ[A-Za-z0-9_-]{20,}\\)\")",
+      "Bash(git -C /Users/coe-kboyd/Documents/GitHub/connections log --all -p --follow -- ai-profiler/.env*)",
+      "Bash(git -C /Users/coe-kboyd/Documents/GitHub/connections show a189ee0 --name-only)",
+      "Bash(git -C /Users/coe-kboyd/Documents/GitHub/connections log --all -p -- *.env*)"
     ],
     "additionalDirectories": [
       "/Users/coe-kboyd/Documents/GitHub/connections/ai-profiler/.git",

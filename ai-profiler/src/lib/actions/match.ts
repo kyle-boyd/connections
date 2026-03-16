@@ -18,11 +18,33 @@ export async function submitMatch(formData: FormData): Promise<SubmitMatchState>
   const industry = formData.get("industry");
   const role = formData.get("role");
 
+  const VALID_PROFICIENCY_LEVELS = new Set(["Curious", "Adopter", "Integrated", "Native"]);
+  const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  const LINKEDIN_RE = /^https:\/\/(www\.)?linkedin\.com\//;
+
   if (!name || typeof name !== "string" || !name.trim()) {
     return { success: false, error: "Name is required." };
   }
+  if (name.trim().length > 200) {
+    return { success: false, error: "Name is too long." };
+  }
   if (!email || typeof email !== "string" || !email.trim()) {
     return { success: false, error: "Email is required." };
+  }
+  if (email.trim().length > 254 || !EMAIL_RE.test(email.trim())) {
+    return { success: false, error: "Please enter a valid email address." };
+  }
+  if (linkedin && typeof linkedin === "string" && linkedin.trim()) {
+    if (linkedin.trim().length > 500 || !LINKEDIN_RE.test(linkedin.trim())) {
+      return { success: false, error: "Please enter a valid LinkedIn profile URL." };
+    }
+  }
+  if (
+    proficiencyLevel &&
+    typeof proficiencyLevel === "string" &&
+    !VALID_PROFICIENCY_LEVELS.has(proficiencyLevel)
+  ) {
+    return { success: false, error: "Invalid proficiency level." };
   }
   if (!optedIn) {
     return { success: false, error: "You must agree to connect with someone less proficient in exchange for access to someone more proficient." };
@@ -53,7 +75,8 @@ export async function submitMatch(formData: FormData): Promise<SubmitMatchState>
   });
 
   if (error) {
-    return { success: false, error: error.message };
+    console.error("matches insert error:", error.message);
+    return { success: false, error: "Submission failed. Please try again." };
   }
 
   // Send confirmation email

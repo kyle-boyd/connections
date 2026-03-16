@@ -49,8 +49,7 @@ export default function SurveyPage() {
           setIndustries(config.industries);
           setLoading(false);
         }
-      } catch (error) {
-        console.error(error);
+      } catch {
         if (!cancelled) {
           setLoadError("We couldn't load the survey right now. Please try again later.");
           setLoading(false);

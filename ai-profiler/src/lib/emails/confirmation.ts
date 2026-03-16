@@ -1,3 +1,12 @@
+function escapeHtml(str: string): string {
+  return str
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#x27;");
+}
+
 type ProficiencyLabel = "Curious" | "Adopter" | "Integrated" | "Native";
 
 const LEVEL_COPY: Record<ProficiencyLabel, string> = {
@@ -23,10 +32,12 @@ export function buildConfirmationEmail({
   role: string | null;
 }) {
   const levelCopy = LEVEL_COPY[proficiencyLevel as ProficiencyLabel] ?? "";
+  const safeName = escapeHtml(name);
+  const safeLevel = escapeHtml(proficiencyLevel);
   const scorecardLine =
     industry && role
-      ? `${industry} &middot; ${role}`
-      : industry ?? role ?? "";
+      ? `${escapeHtml(industry)} &middot; ${escapeHtml(role)}`
+      : industry ? escapeHtml(industry) : role ? escapeHtml(role) : "";
 
   const html = `<!DOCTYPE html>
 <html lang="en">
@@ -49,7 +60,7 @@ export function buildConfirmationEmail({
 
               <!-- Greeting -->
               <h1 style="margin:0 0 8px;font-family:Georgia,serif;font-size:28px;font-weight:700;letter-spacing:-0.03em;color:#1a1a1a;">
-                You're on the list, ${name}.
+                You're on the list, ${safeName}.
               </h1>
               <p style="margin:0 0 32px;font-size:16px;line-height:1.6;color:#6b6560;">
                 Thanks for joining the matching network. Here's a summary of where you stand.
@@ -61,7 +72,7 @@ export function buildConfirmationEmail({
                   <td>
                     <p style="margin:0 0 4px;font-family:Georgia,serif;font-size:12px;color:#6b6560;text-transform:uppercase;letter-spacing:0.08em;">Your AI personality</p>
                     <p style="margin:0 0 8px;font-family:Georgia,serif;font-size:36px;font-weight:800;letter-spacing:-0.04em;color:#53776C;line-height:1;">
-                      AI-${proficiencyLevel}
+                      AI-${safeLevel}
                     </p>
                     ${scorecardLine ? `<p style="margin:0 0 16px;font-size:14px;color:#6b6560;">${scorecardLine}</p>` : ""}
                     ${levelCopy ? `<p style="margin:0;font-size:15px;line-height:1.6;color:#1a1a1a;">${levelCopy}</p>` : ""}
